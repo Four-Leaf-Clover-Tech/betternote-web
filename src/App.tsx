@@ -1,3 +1,5 @@
+import NoteEditor from "./note/components/editor";
+
 function App() {
   return (
     <>
@@ -61,6 +63,11 @@ function App() {
               </li>
             </ul>
           </div>
+        </div>
+      </nav>
+      <nav>
+        <div>
+          <NoteEditor noteContent="this is my note" />
         </div>
       </nav>
     </>
